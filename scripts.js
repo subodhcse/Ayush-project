@@ -197,3 +197,15 @@ document.addEventListener('DOMContentLoaded', function() {
         galleryContainer.appendChild(imgElement);
     });
 });
+document.querySelectorAll('.btn').forEach(button => {
+    button.addEventListener('click', function(e) {
+        e.preventDefault();
+        alert('More information coming soon!');
+    });
+});
+document.querySelectorAll('.btn').forEach(button => {
+    button.addEventListener('click', function(e) {
+        e.preventDefault();
+        alert('More information coming soon!');
+    });
+});

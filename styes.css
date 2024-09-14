@@ -8,16 +8,18 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #20abda;
     background-color: #f4f4f9;
+   
 }
 
 /* Header */
 .header-section {
-    background: #004d40;
-    color: #fff;
+    background: #280be2;
+    color: #ffffff;
     padding: 20px 0;
 }
+
 
 .header-container {
     display: flex;
@@ -34,12 +36,12 @@ body {
 }
 
 .header-content {
-    max-width: 600px;
+    max-width: 900px;
 }
 
 .header-content h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .header-content p {
@@ -48,8 +50,8 @@ body {
 
 /* Navbar */
 .navbar {
-    background: #1cf114;
-    padding: 10px 0;
+    background: #1499f1;
+    padding: 1px ;
 }
 
 .navbar ul {
@@ -62,7 +64,7 @@ body {
 .navbar-logo {
     width: 150px;
     height: 50px;
-    margin-right: 5px;
+    margin-right: 50px;
 }
 
 .navbar ul li {
@@ -81,8 +83,6 @@ body {
     background: #0f0fe5;
 }
 /*more section */
-
-
 .more .dropdown {
     display: none;
     position: absolute;
@@ -150,7 +150,7 @@ body {
 
 .container h2 {
     margin-bottom: 15px;
-    color: #004d40;
+    color: #c73306;
 }
 
 form {
@@ -358,7 +358,7 @@ footer {
 
 /* Footer Bottom Section */
 footer {
-    background-color: #4A198D;
+    background-color: #120af8;
     color: #fff;
     padding: 20px 0;
 }
@@ -458,5 +458,293 @@ strong {
     color: #333;
 }
 
-  
+.social-media-container {
+    text-align: center;
+}
 
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.icons {
+    display: flex;
+    gap: 50px;
+}
+
+.icons img {
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #e6f3da;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.icons img:hover {
+    transform: scale(3.5);
+}
+  
+/* Social Media Section Styles */
+.social-media-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* White background */
+}
+
+.social-media-section h3 {
+    font-size: 1.5rem;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+    flex-wrap: wrap; /* Wrap icons on smaller screens */
+}
+
+.icon {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    background: #fce6df; /* Light peach color background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the area within the icon */
+}
+
+.icon:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow on hover */
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Funding Section */
+.funding-section {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+/* Funding Cards */
+.funding-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.funding-card {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 22%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.funding-card:hover {
+    transform: translateY(-10px);
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.funding-title {
+    font-size: 1.2rem;
+    color: #0d47a1;
+    margin-bottom: 15px;
+}
+
+.funding-description {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.btn:hover {
+    background-color: #e64a19;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .funding-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .funding-card {
+        width: 100%;
+    }
+}
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Ecosystem Section */
+.ecosystem-section {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Ecosystem Cards */
+.ecosystem-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ecosystem-card {
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: left;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.ecosystem-card:hover {
+    transform: translateY(-10px);
+}
+
+.card-header {
+    background-color: #ff6e40;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-description {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.card-image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6e40;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn:hover {
+    background-color: #e64a19;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 992px) {
+    .ecosystem-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .ecosystem-card {
+        width: 100%;
+    }
+}
+h1{
+    color: white;
+}
+.footer-bottom {
+
+    background-color: #f3f1f3;
+    
+    padding: 10px 0;
+    font-weight: bold;
+   text-align: center;
+   text
+}
